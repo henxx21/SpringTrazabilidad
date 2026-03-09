@@ -44,11 +44,11 @@ dependencies {
     implementation("org.locationtech.jts:jts-core:1.20.0")
 
     //dependencias para Spring Security y JWT
-    implementation("org.springframework.boot:spring-boot-starter-security:4.0.3")
-    testImplementation 'org.springframework.security:spring-security-test'
-    implementation("io.jsonwebtoken:jjwt-api:0.13.0")
-    runtimeOnly("io.jsonwebtoken:jjwt-impl:0.13.0")
-    runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.13.0")
+   // implementation("org.springframework.boot:spring-boot-starter-security:4.0.3")
+   // testImplementation 'org.springframework.security:spring-security-test'
+  //  implementation("io.jsonwebtoken:jjwt-api:0.13.0")
+  //  runtimeOnly("io.jsonwebtoken:jjwt-impl:0.13.0")
+  //  runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.13.0")
 }
 
 tasks.named('test') {
